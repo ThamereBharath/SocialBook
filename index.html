@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socialbook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b25e7b49e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+        <img src="images/images/logo.png" class="logo">
+        <ul>
+            <li><img src="images/images/notification.png"></li>
+            <li><img src="images/images/inbox.png"></li>
+            <li><img src="images/images/video.png"></li>
+        </ul>
+    </div>
+        <div class="nav-right"></div>
+        <div class="search-box">
+            <img src="images/images/search.png">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+            <img src="images/images/profile-pic.png" alt="">
+        </div>
+                <!---settings-menu--->
+        <div class="settings-menu">
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Wick</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="images/images/feedback.png" alt="">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                   </div>
+                   <hr>
+                   <div class="setting-links">
+                    <img src="images/images/setting.png" class="settings-icon">
+                    <a href="#">settings & Privacy <img src="images/images/arrow.png" width="10px"></a>
+                   </div>
+                   <div class="setting-links">
+                    <img src="images/images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/images/arrow.png" width="10px"></a>
+                   </div>
+                   <div class="setting-links">
+                    <img src="images/images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/images/arrow.png" width="10px"></a>
+                   </div>
+                   <div class="setting-links">
+                    <img src="images/images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/images/arrow.png" width="10px"></a>
+                   </div>
+    
+    
+    
+    
+                </div>
+
+
+            </div>
+           
+    </nav>
+    
+        <div class="container">
+            <!---left-sidebar--->
+            <div class="left-sidebar">
+                <div class="imp-links">
+                <a href="#"><img src="images/images/news.png">Latest news</a>
+                <a href="#"><img src="images/images/friends.png">friends</a>
+                <a href="#"><img src="images/images/group.png">group</a>
+                <a href="#"><img src="images/images/marketplace.png">marketplace</a>
+                <a href="#"><img src="images/images/watch.png">watch</a>
+                <a href="#">See more</a>
+            </div>
+            <div>
+                <div class="shortcut-links">
+                    <p>Your Shortcuts</p>
+                    <a href="#"><img src="images/images/shortcut-1.png">Web developers</a>
+                    <a href="#"><img src="images/images/shortcut-2.png">Web design</a>
+                    <a href="#"><img src="images/images/shortcut-3.png">full stack developers</a>
+                    <a href="#"><img src="images/images/shortcut-4.png">website experts</a>
+
+                </div>
+            </div>
+            </div>
+            <!--main-content-->
+            <div class="main-content">
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="images/images/upload.png">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="images/images/member-1.png">
+                        <p>Alison</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="images/images/member-2.png">
+                        <p>Jackson</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="images/images/member-3.png">
+                        <p>Jolly</p>
+                    </div>
+                    <div class="story story5">
+                        <img src="images/images/member-4.png">
+                        <p>John Doe</p>
+                    </div>
+                </div>
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Wick</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/images/live-video.png"> Live Video</a>
+                            <a href="#"><img src="images/images/photo.png"> Photo/Video</a>
+                            <a href="#"><img src="images/images/feeling.png"> Feeling/Activity</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/images/profile-pic.png" alt="">
+                            <div>
+                                <p>John Wick</p>
+                                <span>June 24 2021, 12:40</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas-fa-ellipsis-v"></i></a>
+
+                    </div>
+                    
+                    <p class="post-text"><span>@My vampire System</span> After hearing what Peter and Vorden had said, Logan 
+                    wasn’t shocked by it. His mind worked differently to others.<a href="#">My vampire System</a></p>
+                    <img src="images/images/feed-image-1.png" class="post img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/images/like-blue.png" alt="">120</div>
+                            <div><img src="images/images/comments.png" alt=""50></div>
+                            <div><img src="images/images/share.png" alt="">56</div>
+
+                            <div class="post-profile-icon">
+                                <img src="images/images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/images/profile-pic.png" alt="">
+                            <div>
+                                <p>John Wick</p>
+                                <span>June 24 2021, 12:40</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas-fa-ellipsis-v"></i></a>
+
+                    </div>
+                    
+                    <p class="post-text"><span>@Ritesh Agarwal</span> One should accept failure,
+                         and be willing to learn, unlearn and relearn again.<a href="#">My vampire System</a></p>
+                    <img src="images/images/feed-image-2.png" class="post img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/images/like-blue.png" alt="">180</div>
+                            <div><img src="images/images/comments.png" alt="">32</div>
+                            <div><img src="images/images/share.png" alt="">16</div>
+
+                            <div class="post-profile-icon">
+                                <img src="images/images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/images/profile-pic.png" alt="">
+                            <div>
+                                <p>John Wick</p>
+                                <span>June 24 2021, 12:40</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas-fa-ellipsis-v"></i></a>
+
+                    </div>
+                    
+                    <p class="post-text"><span>@Ritesh Agarwal</span> When I go to colleges for talks,
+                         I encourage the students to drop out.<a href="#">My vampire System</a></p>
+                    <img src="images/images/feed-image-3.png" class="post img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/images/like-blue.png" alt="">280</div>
+                            <div><img src="images/images/comments.png" alt="">42</div>
+                            <div><img src="images/images/share.png" alt="">29</div>
+
+                            <div class="post-profile-icon">
+                                <img src="images/images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/images/profile-pic.png" alt="">
+                            <div>
+                                <p>John Wick</p>
+                                <span>June 24 2021, 12:40</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas-fa-ellipsis-v"></i></a>
+
+                    </div>
+                    
+                    <p class="post-text"><span>@Ritesh Agarwal</span> One should accept failure, and be willing to learn,
+                         unlearn and relearn again.<a href="#">My vampire System</a></p>
+                    <img src="images/images/feed-image-4.png" class="post img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/images/like-blue.png" alt="">280</div>
+                            <div><img src="images/images/comments.png" alt="">42</div>
+                            <div><img src="images/images/share.png" alt="">29</div>
+
+                            <div class="post-profile-icon">
+                                <img src="images/images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/images/profile-pic.png" alt="">
+                            <div>
+                                <p>John Wick</p>
+                                <span>June 24 2021, 12:40</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas-fa-ellipsis-v"></i></a>
+
+                    </div>
+                    
+                    <p class="post-text"><span>@Ritesh Agarwal</span> Stay away from family when you are
+                         working on a startup<a href="#">My vampire System</a></p>
+                    <img src="images/images/feed-image-5.png" class="post img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/images/like-blue.png" alt="">280</div>
+                            <div><img src="images/images/comments.png" alt="">42</div>
+                            <div><img src="images/images/share.png" alt="">29</div>
+
+                            <div class="post-profile-icon">
+                                <img src="images/images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button type="button" class="load-more-btn">Load more</button>
+                
+                
+
+
+
+            </div>
+            
+            <!--right-content-->
+            <div class="right-sidebar">
+
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                </div>
+                <div>
+                    <div class="event">
+                        <div class="left-event">
+                            <h3>18</h3>
+                            <span>March</span>
+                        </div>
+                        <div class="right-event"></div>
+                        <h4>Social Media</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>Willson Tech Park</p>
+                        <a href="#">More info</a>
+                    </div>
+                    <div class="event">
+                        <div class="left-event">
+                            <h3>15</h3>
+                            <span>October</span>
+                        </div>
+                        <div class="right-event"></div>
+                        <h4>Mobile marketing</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>Willson Tech Park</p>
+                        <a href="#">More info</a>
+                    </div>
+                </div>
+                <div class="sidebar-title">
+                    <h4>Advertisement</h4>
+                    <a href="#">Close</a>
+                </div>
+                <img src="images/images/advertisement.png" class="sidebar-ads">
+
+                <div class="sidebar-title">
+                    <h4>Conversation</h4>
+                    <a href="#">Hide Chat</a>
+                </div>
+                <div class="online-list">
+                <div class="online">
+                    <img src="images/images/member-1.png">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+            <div class="online">
+                <img src="images/images/member-2.png">
+            </div>
+            <p>Jackson Ceaser</p>
+        </div>
+        <div class="online-list">
+        <div class="online">
+            <img src="images/images/member-3.png">
+        </div>
+        <p>Jolly joseph</p>
+    </div>
+        </div>
+
+        <div class="footer">
+            <p>Copyright 2023 - Bharath</p>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
