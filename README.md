@@ -1,2 +1,2 @@
 # SocialBook 
-<p>This </p>
+<p>This is  a facebook clone where we can practice developing </p>
